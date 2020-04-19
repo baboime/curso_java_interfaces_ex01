@@ -1,6 +1,6 @@
 package servicos;
 
-public class ServicoImpostoBrasil {
+public class ServicoImpostoBrasil implements ServicoImposto {
 	
 	public double imposto(double montante){
 		if (montante > 100.0) {

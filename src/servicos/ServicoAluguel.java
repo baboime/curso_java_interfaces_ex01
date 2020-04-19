@@ -9,9 +9,9 @@ public class ServicoAluguel {
 	private Double valorPorDia;
 	
 	//Associações
-	private ServicoImpostoBrasil servicoImposto;
+	private ServicoImposto servicoImposto;
 
-	public ServicoAluguel(Double valorPorHora, Double valorPorDia, ServicoImpostoBrasil servicoImposto) {
+	public ServicoAluguel(Double valorPorHora, Double valorPorDia, ServicoImposto servicoImposto) {
 		this.valorPorHora = valorPorHora;
 		this.valorPorDia = valorPorDia;
 		this.servicoImposto = servicoImposto;
